@@ -1,2 +1,7 @@
 *.exe
 *.o
+# Ignorar configuración personal de VS Code
+.vscode/
+
+# Ignorar binarios de Linux (por si acaso)
+*.out
