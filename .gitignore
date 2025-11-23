@@ -3,6 +3,8 @@
 # Ignorar configuración personal de VS Code
 .vscode/
 
-# Ignorar binarios de Linux (por si acaso)
+# Ignorar binarios de Linux
 *.out
 chatbot
+chatbot_sesion1
+chatbot_sesion2
