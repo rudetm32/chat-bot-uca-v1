@@ -26,18 +26,21 @@ int main() {
     while (continuar) {
 
         // ----------------------------------------------------------------------
-        // YURIDIA
-        // ACTIVIDAD:
+        // Yuridia Diego Cruz
+        // ACTIVIDAD Realizada:
+        // - Crear menu de opciones.
+        // - Solicitar la entrada del usuario (getline).
+        // - Mantener al usuario dentro del ciclo while.
         // ----------------------------------------------------------------------
 
         cout << "\n----------------------------------------" << endl;
-        cout << "Por favor selecciona una opcion:" << endl;
+        cout << "Por favor elige una opcion del menu:" << endl;
         cout << "1. Horario" << endl;
         cout << "2. Contacto" << endl;
         cout << "3. Servicios ofrecidos" << endl;
         cout << "4. Salir" << endl;
         cout << "----------------------------------------" << endl;
-        cout << "Escribe tu eleccion (numero o nombre): ";
+        cout << "Introduce tu eleccion (numero o nombre): ";
 
         getline(cin, opcion);
 
