@@ -58,8 +58,9 @@ int main() {
         }
 
         // ----------------------------------------------------------------------
-        // SONIA
-        // ACTIVIDAD:
+        // SONIA AGUAS PEÑAFLOR 
+        // ACTIVIDAD: Realizada
+        // crear menu de servicios
         // ----------------------------------------------------------------------
 
         else if (opcion == "3" ||
