@@ -46,8 +46,8 @@ int main() {
 
 
         // ----------------------------------------------------------------------
-        // GALAVIZ
-        // ACTIVIDAD:
+        // Juan Antonio Ruiz
+        // ACTIVIDAD: implemetar opcion horario
         // ----------------------------------------------------------------------
 
         if (opcion == "1" || opcion == "Horario" || opcion == "horario") {
@@ -76,8 +76,8 @@ int main() {
         getline(cin, opcion); // Usamos getline para leer la línea completa
 
         // ----------------------------------------------------------------------
-        // JUAN ANTONIO
-        // ACTIVIDAD:
+        // JUAN ANTONIO Ruiz
+        // ACTIVIDAD: opcion salir y mensaje de despedida
         // ----------------------------------------------------------------------
 
         if (opcion == "4" || opcion == "Salir" || opcion == "salir") {
