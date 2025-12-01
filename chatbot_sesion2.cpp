@@ -52,5 +52,8 @@ int main() {                                  // Inicio de la funcion principal
         cout << "Lo siento, aun no tengo informacion sobre ese tema." << endl;
     }
 
+    cout << "\nPresiona Enter para salir...";
+    cin.get();
+
     return 0;                                     // Fin del programa
 }
