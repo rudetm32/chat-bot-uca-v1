@@ -73,7 +73,7 @@ int main() {
 
         // ----------------------------------------------------------------------
         // JUAN ANTONIO Ruiz
-        // ACTIVIDAD: opcion salir y saludo de despedida
+        // ACTIVIDAD: opcion salir y mensaje de despedida
         // ----------------------------------------------------------------------
 
         if (opcion == "4" || opcion == "Salir" || opcion == "salir") {
