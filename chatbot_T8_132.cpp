@@ -43,8 +43,8 @@ int main() {
 
 
         // ----------------------------------------------------------------------
-        // GALAVIZ
-        // ACTIVIDAD:
+        // Juan Antonio Ruiz
+        // ACTIVIDAD: implemetar opcion horario
         // ----------------------------------------------------------------------
 
         if (opcion == "1" || opcion == "Horario" || opcion == "horario") {
@@ -72,8 +72,8 @@ int main() {
         }
 
         // ----------------------------------------------------------------------
-        // JUAN ANTONIO
-        // ACTIVIDAD:
+        // JUAN ANTONIO Ruiz
+        // ACTIVIDAD: opcion salir y saludo de despedida
         // ----------------------------------------------------------------------
 
         if (opcion == "4" || opcion == "Salir" || opcion == "salir") {
