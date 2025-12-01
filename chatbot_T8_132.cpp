@@ -64,26 +64,25 @@ int main() {
         // ----------------------------------------------------------------------
 
         else if (opcion == "3" ||
-              cout << opcion == "Servicios ofrecidos" << end1;
-              cout << opcion == "servicios ofrecidos" << end1;
-              cout << opcion == "Servicios" << end1;
-              cout << opcion == "servicios") << end1;
+                 opcion == "Servicios ofrecidos" ||
+                 opcion == "servicios ofrecidos" ||
+                 opcion == "Servicios" ||
+                 opcion == "servicios")
         {
             cout << "\n>> Ofrecemos venta y reparto de articulos de oficina para PyMEs." << endl;
         }
-        else if (opcion != "4" && opcion != "Salir" && opcion != "salir") {
-            cout << "\n>> Opcion no reconocida. Por favor intenta escribiendo el numero (ej: 1) o la palabra (ej: Horario)." << endl;
-        getline(cin, opcion); // Usamos getline para leer la línea completa
-
+        
         // ----------------------------------------------------------------------
         // JUAN ANTONIO Ruiz
         // ACTIVIDAD: opcion salir y mensaje de despedida
         // ----------------------------------------------------------------------
-
-        if (opcion == "4" || opcion == "Salir" || opcion == "salir") {
- 
-        cout << "\n>> Gracias por su preferencia, vuelva pronto a Ofiexpress" << endl;
+        else if (opcion == "4" || opcion == "Salir" || opcion == "salir") {
+            cout << "\n>> Gracias por su preferencia, vuelva pronto a Ofiexpress" << endl;
             continuar = false;
+        }
+
+        else {
+            cout << "\n>> Opcion no reconocida. Por favor intenta escribiendo el numero (ej: 1) o la palabra (ej: Horario)." << endl;
         }
     }
 
@@ -91,4 +90,3 @@ int main() {
 
     return 0;
 }
-
