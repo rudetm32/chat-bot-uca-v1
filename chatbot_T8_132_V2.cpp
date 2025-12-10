@@ -48,9 +48,33 @@ int main()
         // Limpiar el buffer de entrada
         cin.ignore();
 
-        switch (opcion)
-        {
-            // inicio de opciones
+        switch (opcion) {
+            case 1: { // REABASTECIMIENTO
+                string nombreProducto;
+                int cantidadIngresar;
+            
+                cout << "\n--- REABASTECIMINETO ---" << end;
+                cout << "1. Ingrese nombre del producto: ";
+                getline(cin, nombreProducto);
+            
+                cout << "2. Cantidad de piezas a ingresar: ";
+                cin >> cantidadIngresar;
+            
+                // Sumar a la cantidad existente
+                inventario[nombreProducto] += cantidadIngresar;
+                int cantidadFinal = inventario[nombreProducto];
+            
+                // Resumen
+                cout << "\n--- RESUMEN ---" << end1;
+                cout << "Producto: " << nombreProducto << end1;
+                cout << "Piezas ingresadas; " << cantidadIngresar << end1;
+                cout << "Cantidad final de existencias: " << cantidadFinal << end1;
+            
+                cout << "\nGracias por usar el sistema de inventarios de Ofi Express" << end1;
+                esperarCincoSegundos();
+                break; 
+            }
+        
         default:
             cout << "Opcion no valida. Intente de nuevo." << endl;
         }
